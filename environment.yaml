@@ -1,0 +1,21 @@
+
+# You can use this file to create a conda environment for this pipeline:
+#   conda env create -f environment.yaml
+name: sf_variant_calling_1.0
+
+channels:
+  - bioconda
+
+dependencies:
+  - bbmap=38.12
+  - bwa=0.7.17
+  - samtools=1.8
+  - bedtools=2.26
+  - gatk=3.8
+  - picard=2.10.3
+  - vcftools=0.1.15
+  - R=3.3.1
+  - perl=5.18.2
+  - python=3.5.1
+  - python=2.7.14
+  
