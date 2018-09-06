@@ -14,7 +14,7 @@ From:rocker/ropensci
 	bash Anaconda3-5.2.0-Linux-x86_64.sh -b -p /opt/anaconda3
 	echo "PATH=/opt/anaconda3/bin:\$PATH" >> $HOME/.bashrc
 	echo "export PATH" >> $HOME/.bashrc
-	rm Anaconda3-4.2.0-Linux-x86_64.sh 
+	rm Anaconda3-5.2.0-Linux-x86_64.sh 
 	. $HOME/.bashrc
 
 	/opt/anaconda3/bin/conda install -c r r-essentials
